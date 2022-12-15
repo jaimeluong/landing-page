@@ -91,3 +91,22 @@
     padding-top: 15px;
     font-size: 24px;
 }
+
+.button, .rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.button {
+    height: 300px;
+}
+
+.rectangle {
+    height: 150px;
+    width: 800px;
+    background-color: #3882F6;
+    gap: 70px;
+    border-radius: 10px;
+}
