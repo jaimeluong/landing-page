@@ -1,4 +1,37 @@
-div {
+* {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
+    color: white;
+}
+
+.top, .footer {
+    background-color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+}
+
+.hero {
     display: flex;
     justify-content: center;
+    height: 500px;
+    gap: 150px;
+    align-items: center;
+}
+
+.hero-text {
+    width: 350px;
 }
