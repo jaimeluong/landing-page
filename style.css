@@ -110,3 +110,9 @@
     gap: 70px;
     border-radius: 10px;
 }
+
+.footer {
+    text-align: center;
+    color: white;
+    margin: 30px;
+}
